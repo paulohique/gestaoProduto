@@ -1,14 +1,27 @@
 package Produtos;
 
-public class Produto
-{
+public class Produto {
     private String nome;
     private String descricao;
     private String codigo;
     private double preco;
+    private int quantidade;
 
+    public Produto(String nome, String descricao, String codigo, double preco, int quantidade) {
+        this.nome = nome;
+        this.descricao = descricao;
+        this.codigo = codigo;
+        this.preco = preco;
+        this.quantidade = quantidade;
+    }
+
+    // Métodos getters e setters
     public int getQuantidade() {
         return quantidade;
+    }
+
+    public void setQuantidade(int quantidade) {
+        this.quantidade = quantidade;
     }
 
     public double getPreco() {
@@ -41,17 +54,5 @@ public class Produto
 
     public void setNome(String nome) {
         this.nome = nome;
-    }
-
-    public int quantidade;
-    public Produto(String nome,String descricao, String codigo, double preco,int quantidade){
-         this.nome = nome;
-         this.descricao = descricao;
-         this.codigo = codigo;
-         this.preco = preco;
-         this.quantidade = quantidade;
-    }
-    public void setQuantidade(int quantidade){
-         this.quantidade = quantidade;
     }
 }
