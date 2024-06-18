@@ -4,20 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="21fd9607-3565-48cd-a69a-1b7b69b02ef0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Projeto Java.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Cliente/Cliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pagamento/formaPagamento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Produtos/Produto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Produtos/produtoAlimenticio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Produtos/produtoEletronico.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Produtos/produtoLimpeza.java" afterDir="false" />
+    <list default="true" id="21fd9607-3565-48cd-a69a-1b7b69b02ef0" name="Changes" comment="Main commit">
+      <change afterPath="$PROJECT_DIR$/src/Estoque/gerenciadorEstoque.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Vendas/Venda.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Produtos/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Produtos/Produto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Produtos/produtoLimpeza.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Produtos/produtoLimpeza.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +30,9 @@
   "associatedIndex": 8
 }]]></component>
   <component name="ProjectId" id="2i1mlOtYAWChgRACMyDpF0Yjxqh" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -88,11 +82,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1718666613367</updated>
-      <workItem from="1718666614485" duration="622000" />
+      <workItem from="1718666614485" duration="3241000" />
     </task>
+    <task id="LOCAL-00001" summary="Main commit">
+      <option name="closed" value="true" />
+      <created>1718667426970</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1718667426970</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Main commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Main commit" />
   </component>
 </project>

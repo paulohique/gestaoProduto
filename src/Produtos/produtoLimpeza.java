@@ -1,4 +1,4 @@
 package Produtos;
 
-protected class produtoLimpeza {
+public class produtoLimpeza {
 }
